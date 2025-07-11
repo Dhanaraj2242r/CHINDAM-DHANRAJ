@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CHINDAM DHANARAJ Portfolio</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f5f6fa;
+      color: #333;
+    }
+    /* Make the body a flex container */
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+    nav {
+      background: linear-gradient(45deg, #333, #555);
+      overflow: hidden;
+    }
+    nav a {
+      float: left;
+      display: block;
+      color: #fff;
+      text-align: center;
+      padding: 16px 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      background-color: #444;
+    }
+    main {
+      flex: 1; /* Take all remaining space */
+      padding-bottom: 40px;
+    }
+    section {
+      display: none;
+      padding: 40px 20px;
+    }
+    section.active {
+      display: block;
+    }
+    .about-container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .about-text {
+      flex: 1;
+      min-width: 250px;
+    }
+    .about-photo {
+      flex: 1;
+      text-align: center;
+      min-width: 200px;
+    }
+    .about-photo img {
+      max-width: 250px;
+      border-radius: 10px;
+    }
+    .project-container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      margin-bottom: 40px;
+    }
+    .project-description {
+      flex: 1;
+      min-width: 250px;
+    }
+    .project-media {
+      flex: 1;
+      min-width: 250px;
+      text-align: center;
+    }
+    .project-media img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #333;
+      color: #fff;
+    }
+    /* Simple slideshow styling */
+    .slideshow-container {
+      position: relative;
+      max-width: 100%;
+    }
+    .mySlides {
+      display: none;
+    }
+    .mySlides img {
+      width: 100%;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Menu -->
+  <nav>
+    <a href="#" onclick="showSection('home')">Home</a>
+    <a href="#" onclick="showSection('about')">About Me</a>
+    <a href="#" onclick="showSection('skills')">Skills</a>
+    <a href="#" onclick="showSection('projects')">Projects</a>
+    <a href="#" onclick="showSection('resume')">Resume</a>
+    <a href="#" onclick="showSection('contact')">Contact</a>
+  </nav>
+
+  <!-- Main content area wrapped in <main> for flex behavior -->
+  <main>
+    <!-- Home Section -->
+    <section id="home" class="active">
+      <h1>Welcome to My Portfolio!</h1>
+      <p>This is a showcase of my skills, projects, and experience as a B.Tech AI student and violinist.</p>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="about-container">
+        <div class="about-text">
+          <h3>CHINDAM DHANARAJ</h3>
+          <p>
+            Email: <a href="mailto:dhanrajchindam@gmail.com">dhanrajchindam@gmail.com</a><br/>
+            LinkedIn: <a href="https:www.linkedin.com/in/chindam-dhanaraj-450b8b314" target="_blank">linkedin.com/in/yourprofile</a><br/>
+            <!-- Add more social links if you want -->
+          </p>
+          <p>
+            I am an ambitious B.Tech AI student with a deep respect for tradition and an eye toward innovation.
+            Combining my technical knowledge with my passion for music, I strive to create solutions that blend technology and creativity.
+          </p>
+        </div>
+        <div class="about-photo">
+          <img src="yourphoto.jpg" alt="DHANARAJ Photo">
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Python Development</li>
+        <li>Machine Learning</li>
+        <li>Web Development (HTML, CSS, JavaScript)</li>
+        <li>Data Analysis</li>
+        <li>Violin Performance</li>
+      </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-container">
+        <div class="project-description">
+          <h3>Project 1: AI Chatbot</h3>
+          <p>
+            An intelligent chatbot that leverages NLP and machine learning algorithms to provide smart responses and assist users in real time.
+          </p>
+        </div>
+        <div class="project-media">
+          <div class="slideshow-container" id="slideshow1">
+            <div class="mySlides">
+              <img src="chatbot1.jpg" alt="Chatbot Screenshot 1">
+            </div>
+            <div class="mySlides">
+              <img src="chatbot2.jpg" alt="Chatbot Screenshot 2">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-container">
+        <div class="project-description">
+          <h3>Project 2: Portfolio Website</h3>
+          <p>
+            A personal website built to showcase my skills, projects, and professional experience. This site demonstrates my front-end development skills and design sensibility.
+          </p>
+        </div>
+        <div class="project-media">
+          <div class="slideshow-container" id="slideshow2">
+            <div class="mySlides">
+              <img src="portfolio1.jpg" alt="Portfolio Screenshot 1">
+            </div>
+            <div class="mySlides">
+              <img src="portfolio2.jpg" alt="Portfolio Screenshot 2">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Add more projects as needed -->
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+      <h2>Resume</h2>
+      <p>
+        <a href="resume.pdf" target="_blank">Download My Resume (PDF)</a>
+      </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        Email: <a href="mailto:dhanrajchindam@gmail.com">dhanrajchindam@gmail.com</a><br/>
+        Phone: +91- 9618253623<br/>
+        LinkedIn: <a href="https:www.linkedin.com/in/chindam-dhanaraj-450b8b314" target="_blank">linkedin.com/in/yourprofile</a>
+      </p>
+    </section>
+  </main>
+
+  <!-- Sticky Footer -->
+  <footer>
+    &copy; DHANARAJ
+  </footer>
+
+  <script>
+    // Tab switching logic
+    function showSection(sectionId) {
+      const sections = document.querySelectorAll('section');
+      sections.forEach(section => {
+        section.classList.remove('active');
+      });
+      document.getElementById(sectionId).classList.add('active');
+    }
+
+    // Simple slideshow logic for all slideshows
+    const slideshows = document.querySelectorAll('.slideshow-container');
+    slideshows.forEach((slideshow) => {
+      let slides = slideshow.querySelectorAll('.mySlides');
+      let index = 0;
+      slides[index].style.display = 'block';
+      setInterval(() => {
+        slides[index].style.display = 'none';
+        index = (index + 1) % slides.length;
+        slides[index].style.display = 'block';
+      }, 3000);
+    });
+  </script>
+
+</body>
+</html>
