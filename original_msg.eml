@@ -1,0 +1,1097 @@
+MIME-Version: 1.0
+Date: Fri, 11 Jul 2025 10:43:54 +0530
+Message-ID: <CAPV6un5PnBDF-CsnEo0RsTxD4ByEJ7Oj7uEGHOKiGWW4SU56Lw@mail.gmail.com>
+Subject: 
+From: CHINDAM DHANARAJ <23eg106a10@anurag.edu.in>
+To: CHINDAM DHANARAJ <23eg106a10@anurag.edu.in>
+Content-Type: multipart/alternative; boundary="00000000000083d6a2063996bd1e"
+
+--00000000000083d6a2063996bd1e
+Content-Type: text/plain; charset="UTF-8"
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>CHINDAM DHANARAJ Portfolio</title>
+<style>
+html, body {
+height: 100%;
+margin: 0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background: #f5f6fa;
+color: #333;
+}
+/* Make the body a flex container */
+body {
+display: flex;
+flex-direction: column;
+}
+nav {
+background: linear-gradient(45deg, #333, #555);
+overflow: hidden;
+}
+nav a {
+float: left;
+display: block;
+color: #fff;
+text-align: center;
+padding: 16px 20px;
+text-decoration: none;
+font-weight: bold;
+}
+nav a:hover {
+background-color: #444;
+}
+main {
+flex: 1; /* Take all remaining space */
+padding-bottom: 40px;
+}
+section {
+display: none;
+padding: 40px 20px;
+}
+section.active {
+display: block;
+}
+.about-container {
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+}
+.about-text {
+flex: 1;
+min-width: 250px;
+}
+.about-photo {
+flex: 1;
+text-align: center;
+min-width: 200px;
+}
+.about-photo img {
+max-width: 250px;
+border-radius: 10px;
+}
+.project-container {
+display: flex;
+flex-wrap: wrap;
+align-items: flex-start;
+margin-bottom: 40px;
+}
+.project-description {
+flex: 1;
+min-width: 250px;
+}
+.project-media {
+flex: 1;
+min-width: 250px;
+text-align: center;
+}
+.project-media img {
+max-width: 100%;
+border-radius: 8px;
+}
+footer {
+text-align: center;
+padding: 20px;
+background: #333;
+color: #fff;
+}
+/* Simple slideshow styling */
+.slideshow-container {
+position: relative;
+max-width: 100%;
+}
+.mySlides {
+display: none;
+}
+.mySlides img {
+width: 100%;
+border-radius: 8px;
+}
+</style>
+</head>
+<body>
+
+<!-- Navigation Menu -->
+<nav>
+<a href="#" onclick="showSection('home')">Home</a>
+<a href="#" onclick="showSection('about')">About Me</a>
+<a href="#" onclick="showSection('skills')">Skills</a>
+<a href="#" onclick="showSection('projects')">Projects</a>
+<a href="#" onclick="showSection('resume')">Resume</a>
+<a href="#" onclick="showSection('contact')">Contact</a>
+</nav>
+
+<!-- Main content area wrapped in <main> for flex behavior -->
+<main>
+<!-- Home Section -->
+<section id="home" class="active">
+<h1>Welcome to My Portfolio!</h1>
+<p>This is a showcase of my skills, projects, and experience as a B.Tech AI
+student and violinist.</p>
+</section>
+
+<!-- About Me Section -->
+<section id="about">
+<h2>About Me</h2>
+<div class="about-container">
+<div class="about-text">
+<h3>CHINDAM DHANARAJ</h3>
+<p>
+Email: <a href="mailto:dhanrajchindam@gmail.com">dhanrajchindam@gmail.com</a
+><br/>
+LinkedIn: <a href="https:www.linkedin.com/in/chindam-dhanaraj-450b8b314"
+target="_blank">linkedin.com/in/yourprofile</a><br/>
+<!-- Add more social links if you want -->
+</p>
+<p>
+I am an ambitious B.Tech AI student with a deep respect for tradition and
+an eye toward innovation.
+Combining my technical knowledge with my passion for music, I strive to
+create solutions that blend technology and creativity.
+</p>
+</div>
+<div class="about-photo">
+<img src="yourphoto.jpg" alt="DHANARAJ Photo">
+</div>
+</div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills">
+<h2>Skills</h2>
+<ul>
+<li>Python Development</li>
+<li>Machine Learning</li>
+<li>Web Development (HTML, CSS, JavaScript)</li>
+<li>Data Analysis</li>
+<li>Violin Performance</li>
+</ul>
+</section>
+
+<!-- Projects Section -->
+<section id="projects">
+<h2>Projects</h2>
+<div class="project-container">
+<div class="project-description">
+<h3>Project 1: AI Chatbot</h3>
+<p>
+An intelligent chatbot that leverages NLP and machine learning algorithms
+to provide smart responses and assist users in real time.
+</p>
+</div>
+<div class="project-media">
+<div class="slideshow-container" id="slideshow1">
+<div class="mySlides">
+<img src="chatbot1.jpg" alt="Chatbot Screenshot 1">
+</div>
+<div class="mySlides">
+<img src="chatbot2.jpg" alt="Chatbot Screenshot 2">
+</div>
+</div>
+</div>
+</div>
+<div class="project-container">
+<div class="project-description">
+<h3>Project 2: Portfolio Website</h3>
+<p>
+A personal website built to showcase my skills, projects, and professional
+experience. This site demonstrates my front-end development skills and
+design sensibility.
+</p>
+</div>
+<div class="project-media">
+<div class="slideshow-container" id="slideshow2">
+<div class="mySlides">
+<img src="portfolio1.jpg" alt="Portfolio Screenshot 1">
+</div>
+<div class="mySlides">
+<img src="portfolio2.jpg" alt="Portfolio Screenshot 2">
+</div>
+</div>
+</div>
+</div>
+<!-- Add more projects as needed -->
+</section>
+
+<!-- Resume Section -->
+<section id="resume">
+<h2>Resume</h2>
+<p>
+<a href="resume.pdf" target="_blank">Download My Resume (PDF)</a>
+</p>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+<h2>Contact</h2>
+<p>
+Email: <a href="mailto:dhanrajchindam@gmail.com">dhanrajchindam@gmail.com</a
+><br/>
+Phone: +91- 9618253623<br/>
+LinkedIn: <a href="https:www.linkedin.com/in/chindam-dhanaraj-450b8b314"
+target="_blank">linkedin.com/in/yourprofile</a>
+</p>
+</section>
+</main>
+
+<!-- Sticky Footer -->
+<footer>
+&copy; DHANARAJ
+</footer>
+
+<script>
+// Tab switching logic
+function showSection(sectionId) {
+const sections = document.querySelectorAll('section');
+sections.forEach(section => {
+section.classList.remove('active');
+});
+document.getElementById(sectionId).classList.add('active');
+}
+
+// Simple slideshow logic for all slideshows
+const slideshows = document.querySelectorAll('.slideshow-container');
+slideshows.forEach((slideshow) => {
+let slides = slideshow.querySelectorAll('.mySlides');
+let index = 0;
+slides[index].style.display = 'block';
+setInterval(() => {
+slides[index].style.display = 'none';
+index = (index + 1) % slides.length;
+slides[index].style.display = 'block';
+}, 3000);
+});
+</script>
+
+</body>
+</html>
+
+--00000000000083d6a2063996bd1e
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div style=3D"color:rgb(204,204,204);background-color:rgb(=
+31,31,31);font-family:Menlo,Monaco,&quot;Courier New&quot;,monospace;font-s=
+ize:12px;line-height:18px;white-space:pre"><div><span style=3D"color:rgb(12=
+8,128,128)">&lt;!</span><span style=3D"color:rgb(86,156,214)">DOCTYPE</span=
+> <span style=3D"color:rgb(156,220,254)">html</span><span style=3D"color:rg=
+b(128,128,128)">&gt;</span></div><div><span style=3D"color:rgb(128,128,128)=
+">&lt;</span><span style=3D"color:rgb(86,156,214)">html</span> <span style=
+=3D"color:rgb(156,220,254)">lang</span>=3D<span style=3D"color:rgb(206,145,=
+120)">&quot;en&quot;</span><span style=3D"color:rgb(128,128,128)">&gt;</spa=
+n></div><div><span style=3D"color:rgb(128,128,128)">&lt;</span><span style=
+=3D"color:rgb(86,156,214)">head</span><span style=3D"color:rgb(128,128,128)=
+">&gt;</span></div><div>  <span style=3D"color:rgb(128,128,128)">&lt;</span=
+><span style=3D"color:rgb(86,156,214)">meta</span> <span style=3D"color:rgb=
+(156,220,254)">charset</span>=3D<span style=3D"color:rgb(206,145,120)">&quo=
+t;UTF-8&quot;</span> <span style=3D"color:rgb(128,128,128)">/&gt;</span></d=
+iv><div>  <span style=3D"color:rgb(128,128,128)">&lt;</span><span style=3D"=
+color:rgb(86,156,214)">meta</span> <span style=3D"color:rgb(156,220,254)">n=
+ame</span>=3D<span style=3D"color:rgb(206,145,120)">&quot;viewport&quot;</s=
+pan> <span style=3D"color:rgb(156,220,254)">content</span>=3D<span style=3D=
+"color:rgb(206,145,120)">&quot;width=3Ddevice-width, initial-scale=3D1.0&qu=
+ot;</span><span style=3D"color:rgb(128,128,128)">/&gt;</span></div><div>  <=
+span style=3D"color:rgb(128,128,128)">&lt;</span><span style=3D"color:rgb(8=
+6,156,214)">title</span><span style=3D"color:rgb(128,128,128)">&gt;</span>C=
+HINDAM DHANARAJ Portfolio<span style=3D"color:rgb(128,128,128)">&lt;/</span=
+><span style=3D"color:rgb(86,156,214)">title</span><span style=3D"color:rgb=
+(128,128,128)">&gt;</span></div><div>  <span style=3D"color:rgb(128,128,128=
+)">&lt;</span><span style=3D"color:rgb(86,156,214)">style</span><span style=
+=3D"color:rgb(128,128,128)">&gt;</span></div><div><span style=3D"color:rgb(=
+212,212,212)">    </span><span style=3D"color:rgb(215,186,125)">html</span>=
+<span style=3D"color:rgb(212,212,212)">, </span><span style=3D"color:rgb(21=
+5,186,125)">body</span><span style=3D"color:rgb(212,212,212)"> {</span></di=
+v><div><span style=3D"color:rgb(212,212,212)">      </span><span style=3D"c=
+olor:rgb(156,220,254)">height</span><span style=3D"color:rgb(212,212,212)">=
+: </span><span style=3D"color:rgb(181,206,168)">100%</span><span style=3D"c=
+olor:rgb(212,212,212)">;</span></div><div><span style=3D"color:rgb(212,212,=
+212)">      </span><span style=3D"color:rgb(156,220,254)">margin</span><spa=
+n style=3D"color:rgb(212,212,212)">: </span><span style=3D"color:rgb(181,20=
+6,168)">0</span><span style=3D"color:rgb(212,212,212)">;</span></div><div><=
+span style=3D"color:rgb(212,212,212)">      </span><span style=3D"color:rgb=
+(156,220,254)">font-family</span><span style=3D"color:rgb(212,212,212)">: <=
+/span><span style=3D"color:rgb(206,145,120)">&#39;Segoe UI&#39;</span><span=
+ style=3D"color:rgb(212,212,212)">, </span><span style=3D"color:rgb(206,145=
+,120)">Tahoma</span><span style=3D"color:rgb(212,212,212)">, Geneva, </span=
+><span style=3D"color:rgb(206,145,120)">Verdana</span><span style=3D"color:=
+rgb(212,212,212)">, </span><span style=3D"color:rgb(206,145,120)">sans-seri=
+f</span><span style=3D"color:rgb(212,212,212)">;</span></div><div><span sty=
+le=3D"color:rgb(212,212,212)">      </span><span style=3D"color:rgb(156,220=
+,254)">background</span><span style=3D"color:rgb(212,212,212)">: </span><sp=
+an style=3D"color:rgb(206,145,120)">#f5f6fa</span><span style=3D"color:rgb(=
+212,212,212)">;</span></div><div><span style=3D"color:rgb(212,212,212)">   =
+   </span><span style=3D"color:rgb(156,220,254)">color</span><span style=3D=
+"color:rgb(212,212,212)">: </span><span style=3D"color:rgb(206,145,120)">#3=
+33</span><span style=3D"color:rgb(212,212,212)">;</span></div><div><span st=
+yle=3D"color:rgb(212,212,212)">    }</span></div><div><span style=3D"color:=
+rgb(212,212,212)">    </span><span style=3D"color:rgb(106,153,85)">/* Make =
+the body a flex container */</span></div><div><span style=3D"color:rgb(212,=
+212,212)">    </span><span style=3D"color:rgb(215,186,125)">body</span><spa=
+n style=3D"color:rgb(212,212,212)"> {</span></div><div><span style=3D"color=
+:rgb(212,212,212)">      </span><span style=3D"color:rgb(156,220,254)">disp=
+lay</span><span style=3D"color:rgb(212,212,212)">: </span><span style=3D"co=
+lor:rgb(206,145,120)">flex</span><span style=3D"color:rgb(212,212,212)">;</=
+span></div><div><span style=3D"color:rgb(212,212,212)">      </span><span s=
+tyle=3D"color:rgb(156,220,254)">flex-direction</span><span style=3D"color:r=
+gb(212,212,212)">: </span><span style=3D"color:rgb(206,145,120)">column</sp=
+an><span style=3D"color:rgb(212,212,212)">;</span></div><div><span style=3D=
+"color:rgb(212,212,212)">    }</span></div><div><span style=3D"color:rgb(21=
+2,212,212)">    </span><span style=3D"color:rgb(215,186,125)">nav</span><sp=
+an style=3D"color:rgb(212,212,212)"> {</span></div><div><span style=3D"colo=
+r:rgb(212,212,212)">      </span><span style=3D"color:rgb(156,220,254)">bac=
+kground</span><span style=3D"color:rgb(212,212,212)">: </span><span style=
+=3D"color:rgb(220,220,170)">linear-gradient</span><span style=3D"color:rgb(=
+212,212,212)">(</span><span style=3D"color:rgb(181,206,168)">45deg</span><s=
+pan style=3D"color:rgb(212,212,212)">, </span><span style=3D"color:rgb(206,=
+145,120)">#333</span><span style=3D"color:rgb(212,212,212)">, </span><span =
+style=3D"color:rgb(206,145,120)">#555</span><span style=3D"color:rgb(212,21=
+2,212)">);</span></div><div><span style=3D"color:rgb(212,212,212)">      </=
+span><span style=3D"color:rgb(156,220,254)">overflow</span><span style=3D"c=
+olor:rgb(212,212,212)">: </span><span style=3D"color:rgb(206,145,120)">hidd=
+en</span><span style=3D"color:rgb(212,212,212)">;</span></div><div><span st=
+yle=3D"color:rgb(212,212,212)">    }</span></div><div><span style=3D"color:=
+rgb(212,212,212)">    </span><span style=3D"color:rgb(215,186,125)">nav</sp=
+an><span style=3D"color:rgb(212,212,212)"> </span><span style=3D"color:rgb(=
+215,186,125)">a</span><span style=3D"color:rgb(212,212,212)"> {</span></div=
+><div><span style=3D"color:rgb(212,212,212)">      </span><span style=3D"co=
+lor:rgb(156,220,254)">float</span><span style=3D"color:rgb(212,212,212)">: =
+</span><span style=3D"color:rgb(206,145,120)">left</span><span style=3D"col=
+or:rgb(212,212,212)">;</span></div><div><span style=3D"color:rgb(212,212,21=
+2)">      </span><span style=3D"color:rgb(156,220,254)">display</span><span=
+ style=3D"color:rgb(212,212,212)">: </span><span style=3D"color:rgb(206,145=
+,120)">block</span><span style=3D"color:rgb(212,212,212)">;</span></div><di=
+v><span style=3D"color:rgb(212,212,212)">      </span><span style=3D"color:=
+rgb(156,220,254)">color</span><span style=3D"color:rgb(212,212,212)">: </sp=
+an><span style=3D"color:rgb(206,145,120)">#fff</span><span style=3D"color:r=
+gb(212,212,212)">;</span></div><div><span style=3D"color:rgb(212,212,212)">=
+      </span><span style=3D"color:rgb(156,220,254)">text-align</span><span =
+style=3D"color:rgb(212,212,212)">: </span><span style=3D"color:rgb(206,145,=
+120)">center</span><span style=3D"color:rgb(212,212,212)">;</span></div><di=
+v><span style=3D"color:rgb(212,212,212)">      </span><span style=3D"color:=
+rgb(156,220,254)">padding</span><span style=3D"color:rgb(212,212,212)">: </=
+span><span style=3D"color:rgb(181,206,168)">16px</span><span style=3D"color=
+:rgb(212,212,212)"> </span><span style=3D"color:rgb(181,206,168)">20px</spa=
+n><span style=3D"color:rgb(212,212,212)">;</span></div><div><span style=3D"=
+color:rgb(212,212,212)">      </span><span style=3D"color:rgb(156,220,254)"=
+>text-decoration</span><span style=3D"color:rgb(212,212,212)">: </span><spa=
+n style=3D"color:rgb(206,145,120)">none</span><span style=3D"color:rgb(212,=
+212,212)">;</span></div><div><span style=3D"color:rgb(212,212,212)">      <=
+/span><span style=3D"color:rgb(156,220,254)">font-weight</span><span style=
+=3D"color:rgb(212,212,212)">: </span><span style=3D"color:rgb(206,145,120)"=
+>bold</span><span style=3D"color:rgb(212,212,212)">;</span></div><div><span=
+ style=3D"color:rgb(212,212,212)">    }</span></div><div><span style=3D"col=
+or:rgb(212,212,212)">    </span><span style=3D"color:rgb(215,186,125)">nav<=
+/span><span style=3D"color:rgb(212,212,212)"> </span><span style=3D"color:r=
+gb(215,186,125)">a:hover</span><span style=3D"color:rgb(212,212,212)"> {</s=
+pan></div><div><span style=3D"color:rgb(212,212,212)">      </span><span st=
+yle=3D"color:rgb(156,220,254)">background-color</span><span style=3D"color:=
+rgb(212,212,212)">: </span><span style=3D"color:rgb(206,145,120)">#444</spa=
+n><span style=3D"color:rgb(212,212,212)">;</span></div><div><span style=3D"=
+color:rgb(212,212,212)">    }</span></div><div><span style=3D"color:rgb(212=
+,212,212)">    </span><span style=3D"color:rgb(215,186,125)">main</span><sp=
+an style=3D"color:rgb(212,212,212)"> {</span></div><div><span style=3D"colo=
+r:rgb(212,212,212)">      </span><span style=3D"color:rgb(156,220,254)">fle=
+x</span><span style=3D"color:rgb(212,212,212)">: </span><span style=3D"colo=
+r:rgb(181,206,168)">1</span><span style=3D"color:rgb(212,212,212)">; </span=
+><span style=3D"color:rgb(106,153,85)">/* Take all remaining space */</span=
+></div><div><span style=3D"color:rgb(212,212,212)">      </span><span style=
+=3D"color:rgb(156,220,254)">padding-bottom</span><span style=3D"color:rgb(2=
+12,212,212)">: </span><span style=3D"color:rgb(181,206,168)">40px</span><sp=
+an style=3D"color:rgb(212,212,212)">;</span></div><div><span style=3D"color=
+:rgb(212,212,212)">    }</span></div><div><span style=3D"color:rgb(212,212,=
+212)">    </span><span style=3D"color:rgb(215,186,125)">section</span><span=
+ style=3D"color:rgb(212,212,212)"> {</span></div><div><span style=3D"color:=
+rgb(212,212,212)">      </span><span style=3D"color:rgb(156,220,254)">displ=
+ay</span><span style=3D"color:rgb(212,212,212)">: </span><span style=3D"col=
+or:rgb(206,145,120)">none</span><span style=3D"color:rgb(212,212,212)">;</s=
+pan></div><div><span style=3D"color:rgb(212,212,212)">      </span><span st=
+yle=3D"color:rgb(156,220,254)">padding</span><span style=3D"color:rgb(212,2=
+12,212)">: </span><span style=3D"color:rgb(181,206,168)">40px</span><span s=
+tyle=3D"color:rgb(212,212,212)"> </span><span style=3D"color:rgb(181,206,16=
+8)">20px</span><span style=3D"color:rgb(212,212,212)">;</span></div><div><s=
+pan style=3D"color:rgb(212,212,212)">    }</span></div><div><span style=3D"=
+color:rgb(212,212,212)">    </span><span style=3D"color:rgb(215,186,125)">s=
+ection.active</span><span style=3D"color:rgb(212,212,212)"> {</span></div><=
+div><span style=3D"color:rgb(212,212,212)">      </span><span style=3D"colo=
+r:rgb(156,220,254)">display</span><span style=3D"color:rgb(212,212,212)">: =
+</span><span style=3D"color:rgb(206,145,120)">block</span><span style=3D"co=
+lor:rgb(212,212,212)">;</span></div><div><span style=3D"color:rgb(212,212,2=
+12)">    }</span></div><div><span style=3D"color:rgb(212,212,212)">    </sp=
+an><span style=3D"color:rgb(215,186,125)">.about-container</span><span styl=
+e=3D"color:rgb(212,212,212)"> {</span></div><div><span style=3D"color:rgb(2=
+12,212,212)">      </span><span style=3D"color:rgb(156,220,254)">display</s=
+pan><span style=3D"color:rgb(212,212,212)">: </span><span style=3D"color:rg=
+b(206,145,120)">flex</span><span style=3D"color:rgb(212,212,212)">;</span><=
+/div><div><span style=3D"color:rgb(212,212,212)">      </span><span style=
+=3D"color:rgb(156,220,254)">flex-wrap</span><span style=3D"color:rgb(212,21=
+2,212)">: </span><span style=3D"color:rgb(206,145,120)">wrap</span><span st=
+yle=3D"color:rgb(212,212,212)">;</span></div><div><span style=3D"color:rgb(=
+212,212,212)">      </span><span style=3D"color:rgb(156,220,254)">align-ite=
+ms</span><span style=3D"color:rgb(212,212,212)">: </span><span style=3D"col=
+or:rgb(206,145,120)">center</span><span style=3D"color:rgb(212,212,212)">;<=
+/span></div><div><span style=3D"color:rgb(212,212,212)">      </span><span =
+style=3D"color:rgb(156,220,254)">justify-content</span><span style=3D"color=
+:rgb(212,212,212)">: </span><span style=3D"color:rgb(206,145,120)">space-be=
+tween</span><span style=3D"color:rgb(212,212,212)">;</span></div><div><span=
+ style=3D"color:rgb(212,212,212)">    }</span></div><div><span style=3D"col=
+or:rgb(212,212,212)">    </span><span style=3D"color:rgb(215,186,125)">.abo=
+ut-text</span><span style=3D"color:rgb(212,212,212)"> {</span></div><div><s=
+pan style=3D"color:rgb(212,212,212)">      </span><span style=3D"color:rgb(=
+156,220,254)">flex</span><span style=3D"color:rgb(212,212,212)">: </span><s=
+pan style=3D"color:rgb(181,206,168)">1</span><span style=3D"color:rgb(212,2=
+12,212)">;</span></div><div><span style=3D"color:rgb(212,212,212)">      </=
+span><span style=3D"color:rgb(156,220,254)">min-width</span><span style=3D"=
+color:rgb(212,212,212)">: </span><span style=3D"color:rgb(181,206,168)">250=
+px</span><span style=3D"color:rgb(212,212,212)">;</span></div><div><span st=
+yle=3D"color:rgb(212,212,212)">    }</span></div><div><span style=3D"color:=
+rgb(212,212,212)">    </span><span style=3D"color:rgb(215,186,125)">.about-=
+photo</span><span style=3D"color:rgb(212,212,212)"> {</span></div><div><spa=
+n style=3D"color:rgb(212,212,212)">      </span><span style=3D"color:rgb(15=
+6,220,254)">flex</span><span style=3D"color:rgb(212,212,212)">: </span><spa=
+n style=3D"color:rgb(181,206,168)">1</span><span style=3D"color:rgb(212,212=
+,212)">;</span></div><div><span style=3D"color:rgb(212,212,212)">      </sp=
+an><span style=3D"color:rgb(156,220,254)">text-align</span><span style=3D"c=
+olor:rgb(212,212,212)">: </span><span style=3D"color:rgb(206,145,120)">cent=
+er</span><span style=3D"color:rgb(212,212,212)">;</span></div><div><span st=
+yle=3D"color:rgb(212,212,212)">      </span><span style=3D"color:rgb(156,22=
+0,254)">min-width</span><span style=3D"color:rgb(212,212,212)">: </span><sp=
+an style=3D"color:rgb(181,206,168)">200px</span><span style=3D"color:rgb(21=
+2,212,212)">;</span></div><div><span style=3D"color:rgb(212,212,212)">    }=
+</span></div><div><span style=3D"color:rgb(212,212,212)">    </span><span s=
+tyle=3D"color:rgb(215,186,125)">.about-photo</span><span style=3D"color:rgb=
+(212,212,212)"> </span><span style=3D"color:rgb(215,186,125)">img</span><sp=
+an style=3D"color:rgb(212,212,212)"> {</span></div><div><span style=3D"colo=
+r:rgb(212,212,212)">      </span><span style=3D"color:rgb(156,220,254)">max=
+-width</span><span style=3D"color:rgb(212,212,212)">: </span><span style=3D=
+"color:rgb(181,206,168)">250px</span><span style=3D"color:rgb(212,212,212)"=
+>;</span></div><div><span style=3D"color:rgb(212,212,212)">      </span><sp=
+an style=3D"color:rgb(156,220,254)">border-radius</span><span style=3D"colo=
+r:rgb(212,212,212)">: </span><span style=3D"color:rgb(181,206,168)">10px</s=
+pan><span style=3D"color:rgb(212,212,212)">;</span></div><div><span style=
+=3D"color:rgb(212,212,212)">    }</span></div><div><span style=3D"color:rgb=
+(212,212,212)">    </span><span style=3D"color:rgb(215,186,125)">.project-c=
+ontainer</span><span style=3D"color:rgb(212,212,212)"> {</span></div><div><=
+span style=3D"color:rgb(212,212,212)">      </span><span style=3D"color:rgb=
+(156,220,254)">display</span><span style=3D"color:rgb(212,212,212)">: </spa=
+n><span style=3D"color:rgb(206,145,120)">flex</span><span style=3D"color:rg=
+b(212,212,212)">;</span></div><div><span style=3D"color:rgb(212,212,212)"> =
+     </span><span style=3D"color:rgb(156,220,254)">flex-wrap</span><span st=
+yle=3D"color:rgb(212,212,212)">: </span><span style=3D"color:rgb(206,145,12=
+0)">wrap</span><span style=3D"color:rgb(212,212,212)">;</span></div><div><s=
+pan style=3D"color:rgb(212,212,212)">      </span><span style=3D"color:rgb(=
+156,220,254)">align-items</span><span style=3D"color:rgb(212,212,212)">: </=
+span><span style=3D"color:rgb(206,145,120)">flex-start</span><span style=3D=
+"color:rgb(212,212,212)">;</span></div><div><span style=3D"color:rgb(212,21=
+2,212)">      </span><span style=3D"color:rgb(156,220,254)">margin-bottom</=
+span><span style=3D"color:rgb(212,212,212)">: </span><span style=3D"color:r=
+gb(181,206,168)">40px</span><span style=3D"color:rgb(212,212,212)">;</span>=
+</div><div><span style=3D"color:rgb(212,212,212)">    }</span></div><div><s=
+pan style=3D"color:rgb(212,212,212)">    </span><span style=3D"color:rgb(21=
+5,186,125)">.project-description</span><span style=3D"color:rgb(212,212,212=
+)"> {</span></div><div><span style=3D"color:rgb(212,212,212)">      </span>=
+<span style=3D"color:rgb(156,220,254)">flex</span><span style=3D"color:rgb(=
+212,212,212)">: </span><span style=3D"color:rgb(181,206,168)">1</span><span=
+ style=3D"color:rgb(212,212,212)">;</span></div><div><span style=3D"color:r=
+gb(212,212,212)">      </span><span style=3D"color:rgb(156,220,254)">min-wi=
+dth</span><span style=3D"color:rgb(212,212,212)">: </span><span style=3D"co=
+lor:rgb(181,206,168)">250px</span><span style=3D"color:rgb(212,212,212)">;<=
+/span></div><div><span style=3D"color:rgb(212,212,212)">    }</span></div><=
+div><span style=3D"color:rgb(212,212,212)">    </span><span style=3D"color:=
+rgb(215,186,125)">.project-media</span><span style=3D"color:rgb(212,212,212=
+)"> {</span></div><div><span style=3D"color:rgb(212,212,212)">      </span>=
+<span style=3D"color:rgb(156,220,254)">flex</span><span style=3D"color:rgb(=
+212,212,212)">: </span><span style=3D"color:rgb(181,206,168)">1</span><span=
+ style=3D"color:rgb(212,212,212)">;</span></div><div><span style=3D"color:r=
+gb(212,212,212)">      </span><span style=3D"color:rgb(156,220,254)">min-wi=
+dth</span><span style=3D"color:rgb(212,212,212)">: </span><span style=3D"co=
+lor:rgb(181,206,168)">250px</span><span style=3D"color:rgb(212,212,212)">;<=
+/span></div><div><span style=3D"color:rgb(212,212,212)">      </span><span =
+style=3D"color:rgb(156,220,254)">text-align</span><span style=3D"color:rgb(=
+212,212,212)">: </span><span style=3D"color:rgb(206,145,120)">center</span>=
+<span style=3D"color:rgb(212,212,212)">;</span></div><div><span style=3D"co=
+lor:rgb(212,212,212)">    }</span></div><div><span style=3D"color:rgb(212,2=
+12,212)">    </span><span style=3D"color:rgb(215,186,125)">.project-media</=
+span><span style=3D"color:rgb(212,212,212)"> </span><span style=3D"color:rg=
+b(215,186,125)">img</span><span style=3D"color:rgb(212,212,212)"> {</span><=
+/div><div><span style=3D"color:rgb(212,212,212)">      </span><span style=
+=3D"color:rgb(156,220,254)">max-width</span><span style=3D"color:rgb(212,21=
+2,212)">: </span><span style=3D"color:rgb(181,206,168)">100%</span><span st=
+yle=3D"color:rgb(212,212,212)">;</span></div><div><span style=3D"color:rgb(=
+212,212,212)">      </span><span style=3D"color:rgb(156,220,254)">border-ra=
+dius</span><span style=3D"color:rgb(212,212,212)">: </span><span style=3D"c=
+olor:rgb(181,206,168)">8px</span><span style=3D"color:rgb(212,212,212)">;</=
+span></div><div><span style=3D"color:rgb(212,212,212)">    }</span></div><d=
+iv><span style=3D"color:rgb(212,212,212)">    </span><span style=3D"color:r=
+gb(215,186,125)">footer</span><span style=3D"color:rgb(212,212,212)"> {</sp=
+an></div><div><span style=3D"color:rgb(212,212,212)">      </span><span sty=
+le=3D"color:rgb(156,220,254)">text-align</span><span style=3D"color:rgb(212=
+,212,212)">: </span><span style=3D"color:rgb(206,145,120)">center</span><sp=
+an style=3D"color:rgb(212,212,212)">;</span></div><div><span style=3D"color=
+:rgb(212,212,212)">      </span><span style=3D"color:rgb(156,220,254)">padd=
+ing</span><span style=3D"color:rgb(212,212,212)">: </span><span style=3D"co=
+lor:rgb(181,206,168)">20px</span><span style=3D"color:rgb(212,212,212)">;</=
+span></div><div><span style=3D"color:rgb(212,212,212)">      </span><span s=
+tyle=3D"color:rgb(156,220,254)">background</span><span style=3D"color:rgb(2=
+12,212,212)">: </span><span style=3D"color:rgb(206,145,120)">#333</span><sp=
+an style=3D"color:rgb(212,212,212)">;</span></div><div><span style=3D"color=
+:rgb(212,212,212)">      </span><span style=3D"color:rgb(156,220,254)">colo=
+r</span><span style=3D"color:rgb(212,212,212)">: </span><span style=3D"colo=
+r:rgb(206,145,120)">#fff</span><span style=3D"color:rgb(212,212,212)">;</sp=
+an></div><div><span style=3D"color:rgb(212,212,212)">    }</span></div><div=
+><span style=3D"color:rgb(212,212,212)">    </span><span style=3D"color:rgb=
+(106,153,85)">/* Simple slideshow styling */</span></div><div><span style=
+=3D"color:rgb(212,212,212)">    </span><span style=3D"color:rgb(215,186,125=
+)">.slideshow-container</span><span style=3D"color:rgb(212,212,212)"> {</sp=
+an></div><div><span style=3D"color:rgb(212,212,212)">      </span><span sty=
+le=3D"color:rgb(156,220,254)">position</span><span style=3D"color:rgb(212,2=
+12,212)">: </span><span style=3D"color:rgb(206,145,120)">relative</span><sp=
+an style=3D"color:rgb(212,212,212)">;</span></div><div><span style=3D"color=
+:rgb(212,212,212)">      </span><span style=3D"color:rgb(156,220,254)">max-=
+width</span><span style=3D"color:rgb(212,212,212)">: </span><span style=3D"=
+color:rgb(181,206,168)">100%</span><span style=3D"color:rgb(212,212,212)">;=
+</span></div><div><span style=3D"color:rgb(212,212,212)">    }</span></div>=
+<div><span style=3D"color:rgb(212,212,212)">    </span><span style=3D"color=
+:rgb(215,186,125)">.mySlides</span><span style=3D"color:rgb(212,212,212)"> =
+{</span></div><div><span style=3D"color:rgb(212,212,212)">      </span><spa=
+n style=3D"color:rgb(156,220,254)">display</span><span style=3D"color:rgb(2=
+12,212,212)">: </span><span style=3D"color:rgb(206,145,120)">none</span><sp=
+an style=3D"color:rgb(212,212,212)">;</span></div><div><span style=3D"color=
+:rgb(212,212,212)">    }</span></div><div><span style=3D"color:rgb(212,212,=
+212)">    </span><span style=3D"color:rgb(215,186,125)">.mySlides</span><sp=
+an style=3D"color:rgb(212,212,212)"> </span><span style=3D"color:rgb(215,18=
+6,125)">img</span><span style=3D"color:rgb(212,212,212)"> {</span></div><di=
+v><span style=3D"color:rgb(212,212,212)">      </span><span style=3D"color:=
+rgb(156,220,254)">width</span><span style=3D"color:rgb(212,212,212)">: </sp=
+an><span style=3D"color:rgb(181,206,168)">100%</span><span style=3D"color:r=
+gb(212,212,212)">;</span></div><div><span style=3D"color:rgb(212,212,212)">=
+      </span><span style=3D"color:rgb(156,220,254)">border-radius</span><sp=
+an style=3D"color:rgb(212,212,212)">: </span><span style=3D"color:rgb(181,2=
+06,168)">8px</span><span style=3D"color:rgb(212,212,212)">;</span></div><di=
+v><span style=3D"color:rgb(212,212,212)">    }</span></div><div><span style=
+=3D"color:rgb(212,212,212)">  </span><span style=3D"color:rgb(128,128,128)"=
+>&lt;/</span><span style=3D"color:rgb(86,156,214)">style</span><span style=
+=3D"color:rgb(128,128,128)">&gt;</span></div><div><span style=3D"color:rgb(=
+128,128,128)">&lt;/</span><span style=3D"color:rgb(86,156,214)">head</span>=
+<span style=3D"color:rgb(128,128,128)">&gt;</span></div><div><span style=3D=
+"color:rgb(128,128,128)">&lt;</span><span style=3D"color:rgb(86,156,214)">b=
+ody</span><span style=3D"color:rgb(128,128,128)">&gt;</span></div><br><div>=
+  <span style=3D"color:rgb(106,153,85)">&lt;!-- Navigation Menu --&gt;</spa=
+n></div><div>  <span style=3D"color:rgb(128,128,128)">&lt;</span><span styl=
+e=3D"color:rgb(86,156,214)">nav</span><span style=3D"color:rgb(128,128,128)=
+">&gt;</span></div><div>    <span style=3D"color:rgb(128,128,128)">&lt;</sp=
+an><span style=3D"color:rgb(86,156,214)">a</span> <span style=3D"color:rgb(=
+156,220,254)">href</span>=3D<span style=3D"color:rgb(206,145,120)">&quot;#&=
+quot;</span> <span style=3D"color:rgb(156,220,254)">onclick</span>=3D<span =
+style=3D"color:rgb(206,145,120)">&quot;</span><span style=3D"color:rgb(220,=
+220,170)">showSection</span><span style=3D"color:rgb(206,145,120)">(&#39;ho=
+me&#39;)&quot;</span><span style=3D"color:rgb(128,128,128)">&gt;</span>Home=
+<span style=3D"color:rgb(128,128,128)">&lt;/</span><span style=3D"color:rgb=
+(86,156,214)">a</span><span style=3D"color:rgb(128,128,128)">&gt;</span></d=
+iv><div>    <span style=3D"color:rgb(128,128,128)">&lt;</span><span style=
+=3D"color:rgb(86,156,214)">a</span> <span style=3D"color:rgb(156,220,254)">=
+href</span>=3D<span style=3D"color:rgb(206,145,120)">&quot;#&quot;</span> <=
+span style=3D"color:rgb(156,220,254)">onclick</span>=3D<span style=3D"color=
+:rgb(206,145,120)">&quot;</span><span style=3D"color:rgb(220,220,170)">show=
+Section</span><span style=3D"color:rgb(206,145,120)">(&#39;about&#39;)&quot=
+;</span><span style=3D"color:rgb(128,128,128)">&gt;</span>About Me<span sty=
+le=3D"color:rgb(128,128,128)">&lt;/</span><span style=3D"color:rgb(86,156,2=
+14)">a</span><span style=3D"color:rgb(128,128,128)">&gt;</span></div><div> =
+   <span style=3D"color:rgb(128,128,128)">&lt;</span><span style=3D"color:r=
+gb(86,156,214)">a</span> <span style=3D"color:rgb(156,220,254)">href</span>=
+=3D<span style=3D"color:rgb(206,145,120)">&quot;#&quot;</span> <span style=
+=3D"color:rgb(156,220,254)">onclick</span>=3D<span style=3D"color:rgb(206,1=
+45,120)">&quot;</span><span style=3D"color:rgb(220,220,170)">showSection</s=
+pan><span style=3D"color:rgb(206,145,120)">(&#39;skills&#39;)&quot;</span><=
+span style=3D"color:rgb(128,128,128)">&gt;</span>Skills<span style=3D"color=
+:rgb(128,128,128)">&lt;/</span><span style=3D"color:rgb(86,156,214)">a</spa=
+n><span style=3D"color:rgb(128,128,128)">&gt;</span></div><div>    <span st=
+yle=3D"color:rgb(128,128,128)">&lt;</span><span style=3D"color:rgb(86,156,2=
+14)">a</span> <span style=3D"color:rgb(156,220,254)">href</span>=3D<span st=
+yle=3D"color:rgb(206,145,120)">&quot;#&quot;</span> <span style=3D"color:rg=
+b(156,220,254)">onclick</span>=3D<span style=3D"color:rgb(206,145,120)">&qu=
+ot;</span><span style=3D"color:rgb(220,220,170)">showSection</span><span st=
+yle=3D"color:rgb(206,145,120)">(&#39;projects&#39;)&quot;</span><span style=
+=3D"color:rgb(128,128,128)">&gt;</span>Projects<span style=3D"color:rgb(128=
+,128,128)">&lt;/</span><span style=3D"color:rgb(86,156,214)">a</span><span =
+style=3D"color:rgb(128,128,128)">&gt;</span></div><div>    <span style=3D"c=
+olor:rgb(128,128,128)">&lt;</span><span style=3D"color:rgb(86,156,214)">a</=
+span> <span style=3D"color:rgb(156,220,254)">href</span>=3D<span style=3D"c=
+olor:rgb(206,145,120)">&quot;#&quot;</span> <span style=3D"color:rgb(156,22=
+0,254)">onclick</span>=3D<span style=3D"color:rgb(206,145,120)">&quot;</spa=
+n><span style=3D"color:rgb(220,220,170)">showSection</span><span style=3D"c=
+olor:rgb(206,145,120)">(&#39;resume&#39;)&quot;</span><span style=3D"color:=
+rgb(128,128,128)">&gt;</span>Resume<span style=3D"color:rgb(128,128,128)">&=
+lt;/</span><span style=3D"color:rgb(86,156,214)">a</span><span style=3D"col=
+or:rgb(128,128,128)">&gt;</span></div><div>    <span style=3D"color:rgb(128=
+,128,128)">&lt;</span><span style=3D"color:rgb(86,156,214)">a</span> <span =
+style=3D"color:rgb(156,220,254)">href</span>=3D<span style=3D"color:rgb(206=
+,145,120)">&quot;#&quot;</span> <span style=3D"color:rgb(156,220,254)">oncl=
+ick</span>=3D<span style=3D"color:rgb(206,145,120)">&quot;</span><span styl=
+e=3D"color:rgb(220,220,170)">showSection</span><span style=3D"color:rgb(206=
+,145,120)">(&#39;contact&#39;)&quot;</span><span style=3D"color:rgb(128,128=
+,128)">&gt;</span>Contact<span style=3D"color:rgb(128,128,128)">&lt;/</span=
+><span style=3D"color:rgb(86,156,214)">a</span><span style=3D"color:rgb(128=
+,128,128)">&gt;</span></div><div>  <span style=3D"color:rgb(128,128,128)">&=
+lt;/</span><span style=3D"color:rgb(86,156,214)">nav</span><span style=3D"c=
+olor:rgb(128,128,128)">&gt;</span></div><br><div>  <span style=3D"color:rgb=
+(106,153,85)">&lt;!-- Main content area wrapped in &lt;main&gt; for flex be=
+havior --&gt;</span></div><div>  <span style=3D"color:rgb(128,128,128)">&lt=
+;</span><span style=3D"color:rgb(86,156,214)">main</span><span style=3D"col=
+or:rgb(128,128,128)">&gt;</span></div><div>    <span style=3D"color:rgb(106=
+,153,85)">&lt;!-- Home Section --&gt;</span></div><div>    <span style=3D"c=
+olor:rgb(128,128,128)">&lt;</span><span style=3D"color:rgb(86,156,214)">sec=
+tion</span> <span style=3D"color:rgb(156,220,254)">id</span>=3D<span style=
+=3D"color:rgb(206,145,120)">&quot;home&quot;</span> <span style=3D"color:rg=
+b(156,220,254)">class</span>=3D<span style=3D"color:rgb(206,145,120)">&quot=
+;active&quot;</span><span style=3D"color:rgb(128,128,128)">&gt;</span></div=
+><div>      <span style=3D"color:rgb(128,128,128)">&lt;</span><span style=
+=3D"color:rgb(86,156,214)">h1</span><span style=3D"color:rgb(128,128,128)">=
+&gt;</span>Welcome to My Portfolio!<span style=3D"color:rgb(128,128,128)">&=
+lt;/</span><span style=3D"color:rgb(86,156,214)">h1</span><span style=3D"co=
+lor:rgb(128,128,128)">&gt;</span></div><div>      <span style=3D"color:rgb(=
+128,128,128)">&lt;</span><span style=3D"color:rgb(86,156,214)">p</span><spa=
+n style=3D"color:rgb(128,128,128)">&gt;</span>This is a showcase of my skil=
+ls, projects, and experience as a B.Tech AI student and violinist.<span sty=
+le=3D"color:rgb(128,128,128)">&lt;/</span><span style=3D"color:rgb(86,156,2=
+14)">p</span><span style=3D"color:rgb(128,128,128)">&gt;</span></div><div> =
+   <span style=3D"color:rgb(128,128,128)">&lt;/</span><span style=3D"color:=
+rgb(86,156,214)">section</span><span style=3D"color:rgb(128,128,128)">&gt;<=
+/span></div><br><div>    <span style=3D"color:rgb(106,153,85)">&lt;!-- Abou=
+t Me Section --&gt;</span></div><div>    <span style=3D"color:rgb(128,128,1=
+28)">&lt;</span><span style=3D"color:rgb(86,156,214)">section</span> <span =
+style=3D"color:rgb(156,220,254)">id</span>=3D<span style=3D"color:rgb(206,1=
+45,120)">&quot;about&quot;</span><span style=3D"color:rgb(128,128,128)">&gt=
+;</span></div><div>      <span style=3D"color:rgb(128,128,128)">&lt;</span>=
+<span style=3D"color:rgb(86,156,214)">h2</span><span style=3D"color:rgb(128=
+,128,128)">&gt;</span>About Me<span style=3D"color:rgb(128,128,128)">&lt;/<=
+/span><span style=3D"color:rgb(86,156,214)">h2</span><span style=3D"color:r=
+gb(128,128,128)">&gt;</span></div><div>      <span style=3D"color:rgb(128,1=
+28,128)">&lt;</span><span style=3D"color:rgb(86,156,214)">div</span> <span =
+style=3D"color:rgb(156,220,254)">class</span>=3D<span style=3D"color:rgb(20=
+6,145,120)">&quot;about-container&quot;</span><span style=3D"color:rgb(128,=
+128,128)">&gt;</span></div><div>        <span style=3D"color:rgb(128,128,12=
+8)">&lt;</span><span style=3D"color:rgb(86,156,214)">div</span> <span style=
+=3D"color:rgb(156,220,254)">class</span>=3D<span style=3D"color:rgb(206,145=
+,120)">&quot;about-text&quot;</span><span style=3D"color:rgb(128,128,128)">=
+&gt;</span></div><div>          <span style=3D"color:rgb(128,128,128)">&lt;=
+</span><span style=3D"color:rgb(86,156,214)">h3</span><span style=3D"color:=
+rgb(128,128,128)">&gt;</span>CHINDAM DHANARAJ<span style=3D"color:rgb(128,1=
+28,128)">&lt;/</span><span style=3D"color:rgb(86,156,214)">h3</span><span s=
+tyle=3D"color:rgb(128,128,128)">&gt;</span></div><div>          <span style=
+=3D"color:rgb(128,128,128)">&lt;</span><span style=3D"color:rgb(86,156,214)=
+">p</span><span style=3D"color:rgb(128,128,128)">&gt;</span></div><div>    =
+        Email: <span style=3D"color:rgb(128,128,128)">&lt;</span><span styl=
+e=3D"color:rgb(86,156,214)">a</span> <span style=3D"color:rgb(156,220,254)"=
+>href</span>=3D<span style=3D"color:rgb(206,145,120)">&quot;mailto:<a href=
+=3D"mailto:dhanrajchindam@gmail.com">dhanrajchindam@gmail.com</a>&quot;</sp=
+an><span style=3D"color:rgb(128,128,128)">&gt;</span><a href=3D"mailto:dhan=
+rajchindam@gmail.com">dhanrajchindam@gmail.com</a><span style=3D"color:rgb(=
+128,128,128)">&lt;/</span><span style=3D"color:rgb(86,156,214)">a</span><sp=
+an style=3D"color:rgb(128,128,128)">&gt;&lt;</span><span style=3D"color:rgb=
+(86,156,214)">br</span><span style=3D"color:rgb(128,128,128)">/&gt;</span><=
+/div><div>            LinkedIn: <span style=3D"color:rgb(128,128,128)">&lt;=
+</span><span style=3D"color:rgb(86,156,214)">a</span> <span style=3D"color:=
+rgb(156,220,254)">href</span>=3D<span style=3D"color:rgb(206,145,120)">&quo=
+t;https:<a href=3D"http://www.linkedin.com/in/chindam-dhanaraj-450b8b314">w=
+ww.linkedin.com/in/chindam-dhanaraj-450b8b314</a>&quot;</span> <span style=
+=3D"color:rgb(156,220,254)">target</span>=3D<span style=3D"color:rgb(206,14=
+5,120)">&quot;_blank&quot;</span><span style=3D"color:rgb(128,128,128)">&gt=
+;</span><a href=3D"http://linkedin.com/in/yourprofile">linkedin.com/in/your=
+profile</a><span style=3D"color:rgb(128,128,128)">&lt;/</span><span style=
+=3D"color:rgb(86,156,214)">a</span><span style=3D"color:rgb(128,128,128)">&=
+gt;&lt;</span><span style=3D"color:rgb(86,156,214)">br</span><span style=3D=
+"color:rgb(128,128,128)">/&gt;</span></div><div>            <span style=3D"=
+color:rgb(106,153,85)">&lt;!-- Add more social links if you want --&gt;</sp=
+an></div><div>          <span style=3D"color:rgb(128,128,128)">&lt;/</span>=
+<span style=3D"color:rgb(86,156,214)">p</span><span style=3D"color:rgb(128,=
+128,128)">&gt;</span></div><div>          <span style=3D"color:rgb(128,128,=
+128)">&lt;</span><span style=3D"color:rgb(86,156,214)">p</span><span style=
+=3D"color:rgb(128,128,128)">&gt;</span></div><div>            I am an ambit=
+ious B.Tech AI student with a deep respect for tradition and an eye toward =
+innovation.</div><div>            Combining my technical knowledge with my =
+passion for music, I strive to create solutions that blend technology and c=
+reativity.</div><div>          <span style=3D"color:rgb(128,128,128)">&lt;/=
+</span><span style=3D"color:rgb(86,156,214)">p</span><span style=3D"color:r=
+gb(128,128,128)">&gt;</span></div><div>        <span style=3D"color:rgb(128=
+,128,128)">&lt;/</span><span style=3D"color:rgb(86,156,214)">div</span><spa=
+n style=3D"color:rgb(128,128,128)">&gt;</span></div><div>        <span styl=
+e=3D"color:rgb(128,128,128)">&lt;</span><span style=3D"color:rgb(86,156,214=
+)">div</span> <span style=3D"color:rgb(156,220,254)">class</span>=3D<span s=
+tyle=3D"color:rgb(206,145,120)">&quot;about-photo&quot;</span><span style=
+=3D"color:rgb(128,128,128)">&gt;</span></div><div>          <span style=3D"=
+color:rgb(128,128,128)">&lt;</span><span style=3D"color:rgb(86,156,214)">im=
+g</span> <span style=3D"color:rgb(156,220,254)">src</span>=3D<span style=3D=
+"color:rgb(206,145,120)">&quot;yourphoto.jpg&quot;</span> <span style=3D"co=
+lor:rgb(156,220,254)">alt</span>=3D<span style=3D"color:rgb(206,145,120)">&=
+quot;DHANARAJ Photo&quot;</span><span style=3D"color:rgb(128,128,128)">&gt;=
+</span></div><div>        <span style=3D"color:rgb(128,128,128)">&lt;/</spa=
+n><span style=3D"color:rgb(86,156,214)">div</span><span style=3D"color:rgb(=
+128,128,128)">&gt;</span></div><div>      <span style=3D"color:rgb(128,128,=
+128)">&lt;/</span><span style=3D"color:rgb(86,156,214)">div</span><span sty=
+le=3D"color:rgb(128,128,128)">&gt;</span></div><div>    <span style=3D"colo=
+r:rgb(128,128,128)">&lt;/</span><span style=3D"color:rgb(86,156,214)">secti=
+on</span><span style=3D"color:rgb(128,128,128)">&gt;</span></div><br><div> =
+   <span style=3D"color:rgb(106,153,85)">&lt;!-- Skills Section --&gt;</spa=
+n></div><div>    <span style=3D"color:rgb(128,128,128)">&lt;</span><span st=
+yle=3D"color:rgb(86,156,214)">section</span> <span style=3D"color:rgb(156,2=
+20,254)">id</span>=3D<span style=3D"color:rgb(206,145,120)">&quot;skills&qu=
+ot;</span><span style=3D"color:rgb(128,128,128)">&gt;</span></div><div>    =
+  <span style=3D"color:rgb(128,128,128)">&lt;</span><span style=3D"color:rg=
+b(86,156,214)">h2</span><span style=3D"color:rgb(128,128,128)">&gt;</span>S=
+kills<span style=3D"color:rgb(128,128,128)">&lt;/</span><span style=3D"colo=
+r:rgb(86,156,214)">h2</span><span style=3D"color:rgb(128,128,128)">&gt;</sp=
+an></div><div>      <span style=3D"color:rgb(128,128,128)">&lt;</span><span=
+ style=3D"color:rgb(86,156,214)">ul</span><span style=3D"color:rgb(128,128,=
+128)">&gt;</span></div><div>        <span style=3D"color:rgb(128,128,128)">=
+&lt;</span><span style=3D"color:rgb(86,156,214)">li</span><span style=3D"co=
+lor:rgb(128,128,128)">&gt;</span>Python Development<span style=3D"color:rgb=
+(128,128,128)">&lt;/</span><span style=3D"color:rgb(86,156,214)">li</span><=
+span style=3D"color:rgb(128,128,128)">&gt;</span></div><div>        <span s=
+tyle=3D"color:rgb(128,128,128)">&lt;</span><span style=3D"color:rgb(86,156,=
+214)">li</span><span style=3D"color:rgb(128,128,128)">&gt;</span>Machine Le=
+arning<span style=3D"color:rgb(128,128,128)">&lt;/</span><span style=3D"col=
+or:rgb(86,156,214)">li</span><span style=3D"color:rgb(128,128,128)">&gt;</s=
+pan></div><div>        <span style=3D"color:rgb(128,128,128)">&lt;</span><s=
+pan style=3D"color:rgb(86,156,214)">li</span><span style=3D"color:rgb(128,1=
+28,128)">&gt;</span>Web Development (HTML, CSS, JavaScript)<span style=3D"c=
+olor:rgb(128,128,128)">&lt;/</span><span style=3D"color:rgb(86,156,214)">li=
+</span><span style=3D"color:rgb(128,128,128)">&gt;</span></div><div>       =
+ <span style=3D"color:rgb(128,128,128)">&lt;</span><span style=3D"color:rgb=
+(86,156,214)">li</span><span style=3D"color:rgb(128,128,128)">&gt;</span>Da=
+ta Analysis<span style=3D"color:rgb(128,128,128)">&lt;/</span><span style=
+=3D"color:rgb(86,156,214)">li</span><span style=3D"color:rgb(128,128,128)">=
+&gt;</span></div><div>        <span style=3D"color:rgb(128,128,128)">&lt;</=
+span><span style=3D"color:rgb(86,156,214)">li</span><span style=3D"color:rg=
+b(128,128,128)">&gt;</span>Violin Performance<span style=3D"color:rgb(128,1=
+28,128)">&lt;/</span><span style=3D"color:rgb(86,156,214)">li</span><span s=
+tyle=3D"color:rgb(128,128,128)">&gt;</span></div><div>      <span style=3D"=
+color:rgb(128,128,128)">&lt;/</span><span style=3D"color:rgb(86,156,214)">u=
+l</span><span style=3D"color:rgb(128,128,128)">&gt;</span></div><div>    <s=
+pan style=3D"color:rgb(128,128,128)">&lt;/</span><span style=3D"color:rgb(8=
+6,156,214)">section</span><span style=3D"color:rgb(128,128,128)">&gt;</span=
+></div><br><div>    <span style=3D"color:rgb(106,153,85)">&lt;!-- Projects =
+Section --&gt;</span></div><div>    <span style=3D"color:rgb(128,128,128)">=
+&lt;</span><span style=3D"color:rgb(86,156,214)">section</span> <span style=
+=3D"color:rgb(156,220,254)">id</span>=3D<span style=3D"color:rgb(206,145,12=
+0)">&quot;projects&quot;</span><span style=3D"color:rgb(128,128,128)">&gt;<=
+/span></div><div>      <span style=3D"color:rgb(128,128,128)">&lt;</span><s=
+pan style=3D"color:rgb(86,156,214)">h2</span><span style=3D"color:rgb(128,1=
+28,128)">&gt;</span>Projects<span style=3D"color:rgb(128,128,128)">&lt;/</s=
+pan><span style=3D"color:rgb(86,156,214)">h2</span><span style=3D"color:rgb=
+(128,128,128)">&gt;</span></div><div>      <span style=3D"color:rgb(128,128=
+,128)">&lt;</span><span style=3D"color:rgb(86,156,214)">div</span> <span st=
+yle=3D"color:rgb(156,220,254)">class</span>=3D<span style=3D"color:rgb(206,=
+145,120)">&quot;project-container&quot;</span><span style=3D"color:rgb(128,=
+128,128)">&gt;</span></div><div>        <span style=3D"color:rgb(128,128,12=
+8)">&lt;</span><span style=3D"color:rgb(86,156,214)">div</span> <span style=
+=3D"color:rgb(156,220,254)">class</span>=3D<span style=3D"color:rgb(206,145=
+,120)">&quot;project-description&quot;</span><span style=3D"color:rgb(128,1=
+28,128)">&gt;</span></div><div>          <span style=3D"color:rgb(128,128,1=
+28)">&lt;</span><span style=3D"color:rgb(86,156,214)">h3</span><span style=
+=3D"color:rgb(128,128,128)">&gt;</span>Project 1: AI Chatbot<span style=3D"=
+color:rgb(128,128,128)">&lt;/</span><span style=3D"color:rgb(86,156,214)">h=
+3</span><span style=3D"color:rgb(128,128,128)">&gt;</span></div><div>      =
+    <span style=3D"color:rgb(128,128,128)">&lt;</span><span style=3D"color:=
+rgb(86,156,214)">p</span><span style=3D"color:rgb(128,128,128)">&gt;</span>=
+</div><div>            An intelligent chatbot that leverages NLP and machin=
+e learning algorithms to provide smart responses and assist users in real t=
+ime.</div><div>          <span style=3D"color:rgb(128,128,128)">&lt;/</span=
+><span style=3D"color:rgb(86,156,214)">p</span><span style=3D"color:rgb(128=
+,128,128)">&gt;</span></div><div>        <span style=3D"color:rgb(128,128,1=
+28)">&lt;/</span><span style=3D"color:rgb(86,156,214)">div</span><span styl=
+e=3D"color:rgb(128,128,128)">&gt;</span></div><div>        <span style=3D"c=
+olor:rgb(128,128,128)">&lt;</span><span style=3D"color:rgb(86,156,214)">div=
+</span> <span style=3D"color:rgb(156,220,254)">class</span>=3D<span style=
+=3D"color:rgb(206,145,120)">&quot;project-media&quot;</span><span style=3D"=
+color:rgb(128,128,128)">&gt;</span></div><div>          <span style=3D"colo=
+r:rgb(128,128,128)">&lt;</span><span style=3D"color:rgb(86,156,214)">div</s=
+pan> <span style=3D"color:rgb(156,220,254)">class</span>=3D<span style=3D"c=
+olor:rgb(206,145,120)">&quot;slideshow-container&quot;</span> <span style=
+=3D"color:rgb(156,220,254)">id</span>=3D<span style=3D"color:rgb(206,145,12=
+0)">&quot;slideshow1&quot;</span><span style=3D"color:rgb(128,128,128)">&gt=
+;</span></div><div>            <span style=3D"color:rgb(128,128,128)">&lt;<=
+/span><span style=3D"color:rgb(86,156,214)">div</span> <span style=3D"color=
+:rgb(156,220,254)">class</span>=3D<span style=3D"color:rgb(206,145,120)">&q=
+uot;mySlides&quot;</span><span style=3D"color:rgb(128,128,128)">&gt;</span>=
+</div><div>              <span style=3D"color:rgb(128,128,128)">&lt;</span>=
+<span style=3D"color:rgb(86,156,214)">img</span> <span style=3D"color:rgb(1=
+56,220,254)">src</span>=3D<span style=3D"color:rgb(206,145,120)">&quot;chat=
+bot1.jpg&quot;</span> <span style=3D"color:rgb(156,220,254)">alt</span>=3D<=
+span style=3D"color:rgb(206,145,120)">&quot;Chatbot Screenshot 1&quot;</spa=
+n><span style=3D"color:rgb(128,128,128)">&gt;</span></div><div>            =
+<span style=3D"color:rgb(128,128,128)">&lt;/</span><span style=3D"color:rgb=
+(86,156,214)">div</span><span style=3D"color:rgb(128,128,128)">&gt;</span><=
+/div><div>            <span style=3D"color:rgb(128,128,128)">&lt;</span><sp=
+an style=3D"color:rgb(86,156,214)">div</span> <span style=3D"color:rgb(156,=
+220,254)">class</span>=3D<span style=3D"color:rgb(206,145,120)">&quot;mySli=
+des&quot;</span><span style=3D"color:rgb(128,128,128)">&gt;</span></div><di=
+v>              <span style=3D"color:rgb(128,128,128)">&lt;</span><span sty=
+le=3D"color:rgb(86,156,214)">img</span> <span style=3D"color:rgb(156,220,25=
+4)">src</span>=3D<span style=3D"color:rgb(206,145,120)">&quot;chatbot2.jpg&=
+quot;</span> <span style=3D"color:rgb(156,220,254)">alt</span>=3D<span styl=
+e=3D"color:rgb(206,145,120)">&quot;Chatbot Screenshot 2&quot;</span><span s=
+tyle=3D"color:rgb(128,128,128)">&gt;</span></div><div>            <span sty=
+le=3D"color:rgb(128,128,128)">&lt;/</span><span style=3D"color:rgb(86,156,2=
+14)">div</span><span style=3D"color:rgb(128,128,128)">&gt;</span></div><div=
+>          <span style=3D"color:rgb(128,128,128)">&lt;/</span><span style=
+=3D"color:rgb(86,156,214)">div</span><span style=3D"color:rgb(128,128,128)"=
+>&gt;</span></div><div>        <span style=3D"color:rgb(128,128,128)">&lt;/=
+</span><span style=3D"color:rgb(86,156,214)">div</span><span style=3D"color=
+:rgb(128,128,128)">&gt;</span></div><div>      <span style=3D"color:rgb(128=
+,128,128)">&lt;/</span><span style=3D"color:rgb(86,156,214)">div</span><spa=
+n style=3D"color:rgb(128,128,128)">&gt;</span></div><div>      <span style=
+=3D"color:rgb(128,128,128)">&lt;</span><span style=3D"color:rgb(86,156,214)=
+">div</span> <span style=3D"color:rgb(156,220,254)">class</span>=3D<span st=
+yle=3D"color:rgb(206,145,120)">&quot;project-container&quot;</span><span st=
+yle=3D"color:rgb(128,128,128)">&gt;</span></div><div>        <span style=3D=
+"color:rgb(128,128,128)">&lt;</span><span style=3D"color:rgb(86,156,214)">d=
+iv</span> <span style=3D"color:rgb(156,220,254)">class</span>=3D<span style=
+=3D"color:rgb(206,145,120)">&quot;project-description&quot;</span><span sty=
+le=3D"color:rgb(128,128,128)">&gt;</span></div><div>          <span style=
+=3D"color:rgb(128,128,128)">&lt;</span><span style=3D"color:rgb(86,156,214)=
+">h3</span><span style=3D"color:rgb(128,128,128)">&gt;</span>Project 2: Por=
+tfolio Website<span style=3D"color:rgb(128,128,128)">&lt;/</span><span styl=
+e=3D"color:rgb(86,156,214)">h3</span><span style=3D"color:rgb(128,128,128)"=
+>&gt;</span></div><div>          <span style=3D"color:rgb(128,128,128)">&lt=
+;</span><span style=3D"color:rgb(86,156,214)">p</span><span style=3D"color:=
+rgb(128,128,128)">&gt;</span></div><div>            A personal website buil=
+t to showcase my skills, projects, and professional experience. This site d=
+emonstrates my front-end development skills and design sensibility.</div><d=
+iv>          <span style=3D"color:rgb(128,128,128)">&lt;/</span><span style=
+=3D"color:rgb(86,156,214)">p</span><span style=3D"color:rgb(128,128,128)">&=
+gt;</span></div><div>        <span style=3D"color:rgb(128,128,128)">&lt;/</=
+span><span style=3D"color:rgb(86,156,214)">div</span><span style=3D"color:r=
+gb(128,128,128)">&gt;</span></div><div>        <span style=3D"color:rgb(128=
+,128,128)">&lt;</span><span style=3D"color:rgb(86,156,214)">div</span> <spa=
+n style=3D"color:rgb(156,220,254)">class</span>=3D<span style=3D"color:rgb(=
+206,145,120)">&quot;project-media&quot;</span><span style=3D"color:rgb(128,=
+128,128)">&gt;</span></div><div>          <span style=3D"color:rgb(128,128,=
+128)">&lt;</span><span style=3D"color:rgb(86,156,214)">div</span> <span sty=
+le=3D"color:rgb(156,220,254)">class</span>=3D<span style=3D"color:rgb(206,1=
+45,120)">&quot;slideshow-container&quot;</span> <span style=3D"color:rgb(15=
+6,220,254)">id</span>=3D<span style=3D"color:rgb(206,145,120)">&quot;slides=
+how2&quot;</span><span style=3D"color:rgb(128,128,128)">&gt;</span></div><d=
+iv>            <span style=3D"color:rgb(128,128,128)">&lt;</span><span styl=
+e=3D"color:rgb(86,156,214)">div</span> <span style=3D"color:rgb(156,220,254=
+)">class</span>=3D<span style=3D"color:rgb(206,145,120)">&quot;mySlides&quo=
+t;</span><span style=3D"color:rgb(128,128,128)">&gt;</span></div><div>     =
+         <span style=3D"color:rgb(128,128,128)">&lt;</span><span style=3D"c=
+olor:rgb(86,156,214)">img</span> <span style=3D"color:rgb(156,220,254)">src=
+</span>=3D<span style=3D"color:rgb(206,145,120)">&quot;portfolio1.jpg&quot;=
+</span> <span style=3D"color:rgb(156,220,254)">alt</span>=3D<span style=3D"=
+color:rgb(206,145,120)">&quot;Portfolio Screenshot 1&quot;</span><span styl=
+e=3D"color:rgb(128,128,128)">&gt;</span></div><div>            <span style=
+=3D"color:rgb(128,128,128)">&lt;/</span><span style=3D"color:rgb(86,156,214=
+)">div</span><span style=3D"color:rgb(128,128,128)">&gt;</span></div><div> =
+           <span style=3D"color:rgb(128,128,128)">&lt;</span><span style=3D=
+"color:rgb(86,156,214)">div</span> <span style=3D"color:rgb(156,220,254)">c=
+lass</span>=3D<span style=3D"color:rgb(206,145,120)">&quot;mySlides&quot;</=
+span><span style=3D"color:rgb(128,128,128)">&gt;</span></div><div>         =
+     <span style=3D"color:rgb(128,128,128)">&lt;</span><span style=3D"color=
+:rgb(86,156,214)">img</span> <span style=3D"color:rgb(156,220,254)">src</sp=
+an>=3D<span style=3D"color:rgb(206,145,120)">&quot;portfolio2.jpg&quot;</sp=
+an> <span style=3D"color:rgb(156,220,254)">alt</span>=3D<span style=3D"colo=
+r:rgb(206,145,120)">&quot;Portfolio Screenshot 2&quot;</span><span style=3D=
+"color:rgb(128,128,128)">&gt;</span></div><div>            <span style=3D"c=
+olor:rgb(128,128,128)">&lt;/</span><span style=3D"color:rgb(86,156,214)">di=
+v</span><span style=3D"color:rgb(128,128,128)">&gt;</span></div><div>      =
+    <span style=3D"color:rgb(128,128,128)">&lt;/</span><span style=3D"color=
+:rgb(86,156,214)">div</span><span style=3D"color:rgb(128,128,128)">&gt;</sp=
+an></div><div>        <span style=3D"color:rgb(128,128,128)">&lt;/</span><s=
+pan style=3D"color:rgb(86,156,214)">div</span><span style=3D"color:rgb(128,=
+128,128)">&gt;</span></div><div>      <span style=3D"color:rgb(128,128,128)=
+">&lt;/</span><span style=3D"color:rgb(86,156,214)">div</span><span style=
+=3D"color:rgb(128,128,128)">&gt;</span></div><div>      <span style=3D"colo=
+r:rgb(106,153,85)">&lt;!-- Add more projects as needed --&gt;</span></div><=
+div>    <span style=3D"color:rgb(128,128,128)">&lt;/</span><span style=3D"c=
+olor:rgb(86,156,214)">section</span><span style=3D"color:rgb(128,128,128)">=
+&gt;</span></div><br><div>    <span style=3D"color:rgb(106,153,85)">&lt;!--=
+ Resume Section --&gt;</span></div><div>    <span style=3D"color:rgb(128,12=
+8,128)">&lt;</span><span style=3D"color:rgb(86,156,214)">section</span> <sp=
+an style=3D"color:rgb(156,220,254)">id</span>=3D<span style=3D"color:rgb(20=
+6,145,120)">&quot;resume&quot;</span><span style=3D"color:rgb(128,128,128)"=
+>&gt;</span></div><div>      <span style=3D"color:rgb(128,128,128)">&lt;</s=
+pan><span style=3D"color:rgb(86,156,214)">h2</span><span style=3D"color:rgb=
+(128,128,128)">&gt;</span>Resume<span style=3D"color:rgb(128,128,128)">&lt;=
+/</span><span style=3D"color:rgb(86,156,214)">h2</span><span style=3D"color=
+:rgb(128,128,128)">&gt;</span></div><div>      <span style=3D"color:rgb(128=
+,128,128)">&lt;</span><span style=3D"color:rgb(86,156,214)">p</span><span s=
+tyle=3D"color:rgb(128,128,128)">&gt;</span></div><div>        <span style=
+=3D"color:rgb(128,128,128)">&lt;</span><span style=3D"color:rgb(86,156,214)=
+">a</span> <span style=3D"color:rgb(156,220,254)">href</span>=3D<span style=
+=3D"color:rgb(206,145,120)">&quot;resume.pdf&quot;</span> <span style=3D"co=
+lor:rgb(156,220,254)">target</span>=3D<span style=3D"color:rgb(206,145,120)=
+">&quot;_blank&quot;</span><span style=3D"color:rgb(128,128,128)">&gt;</spa=
+n>Download My Resume (PDF)<span style=3D"color:rgb(128,128,128)">&lt;/</spa=
+n><span style=3D"color:rgb(86,156,214)">a</span><span style=3D"color:rgb(12=
+8,128,128)">&gt;</span></div><div>      <span style=3D"color:rgb(128,128,12=
+8)">&lt;/</span><span style=3D"color:rgb(86,156,214)">p</span><span style=
+=3D"color:rgb(128,128,128)">&gt;</span></div><div>    <span style=3D"color:=
+rgb(128,128,128)">&lt;/</span><span style=3D"color:rgb(86,156,214)">section=
+</span><span style=3D"color:rgb(128,128,128)">&gt;</span></div><br><div>   =
+ <span style=3D"color:rgb(106,153,85)">&lt;!-- Contact Section --&gt;</span=
+></div><div>    <span style=3D"color:rgb(128,128,128)">&lt;</span><span sty=
+le=3D"color:rgb(86,156,214)">section</span> <span style=3D"color:rgb(156,22=
+0,254)">id</span>=3D<span style=3D"color:rgb(206,145,120)">&quot;contact&qu=
+ot;</span><span style=3D"color:rgb(128,128,128)">&gt;</span></div><div>    =
+  <span style=3D"color:rgb(128,128,128)">&lt;</span><span style=3D"color:rg=
+b(86,156,214)">h2</span><span style=3D"color:rgb(128,128,128)">&gt;</span>C=
+ontact<span style=3D"color:rgb(128,128,128)">&lt;/</span><span style=3D"col=
+or:rgb(86,156,214)">h2</span><span style=3D"color:rgb(128,128,128)">&gt;</s=
+pan></div><div>      <span style=3D"color:rgb(128,128,128)">&lt;</span><spa=
+n style=3D"color:rgb(86,156,214)">p</span><span style=3D"color:rgb(128,128,=
+128)">&gt;</span></div><div>        Email: <span style=3D"color:rgb(128,128=
+,128)">&lt;</span><span style=3D"color:rgb(86,156,214)">a</span> <span styl=
+e=3D"color:rgb(156,220,254)">href</span>=3D<span style=3D"color:rgb(206,145=
+,120)">&quot;mailto:<a href=3D"mailto:dhanrajchindam@gmail.com">dhanrajchin=
+dam@gmail.com</a>&quot;</span><span style=3D"color:rgb(128,128,128)">&gt;</=
+span><a href=3D"mailto:dhanrajchindam@gmail.com">dhanrajchindam@gmail.com</=
+a><span style=3D"color:rgb(128,128,128)">&lt;/</span><span style=3D"color:r=
+gb(86,156,214)">a</span><span style=3D"color:rgb(128,128,128)">&gt;&lt;</sp=
+an><span style=3D"color:rgb(86,156,214)">br</span><span style=3D"color:rgb(=
+128,128,128)">/&gt;</span></div><div>        Phone: +91- 9618253623<span st=
+yle=3D"color:rgb(128,128,128)">&lt;</span><span style=3D"color:rgb(86,156,2=
+14)">br</span><span style=3D"color:rgb(128,128,128)">/&gt;</span></div><div=
+>        LinkedIn: <span style=3D"color:rgb(128,128,128)">&lt;</span><span =
+style=3D"color:rgb(86,156,214)">a</span> <span style=3D"color:rgb(156,220,2=
+54)">href</span>=3D<span style=3D"color:rgb(206,145,120)">&quot;https:<a hr=
+ef=3D"http://www.linkedin.com/in/chindam-dhanaraj-450b8b314">www.linkedin.c=
+om/in/chindam-dhanaraj-450b8b314</a>&quot;</span> <span style=3D"color:rgb(=
+156,220,254)">target</span>=3D<span style=3D"color:rgb(206,145,120)">&quot;=
+_blank&quot;</span><span style=3D"color:rgb(128,128,128)">&gt;</span><a hre=
+f=3D"http://linkedin.com/in/yourprofile">linkedin.com/in/yourprofile</a><sp=
+an style=3D"color:rgb(128,128,128)">&lt;/</span><span style=3D"color:rgb(86=
+,156,214)">a</span><span style=3D"color:rgb(128,128,128)">&gt;</span></div>=
+<div>      <span style=3D"color:rgb(128,128,128)">&lt;/</span><span style=
+=3D"color:rgb(86,156,214)">p</span><span style=3D"color:rgb(128,128,128)">&=
+gt;</span></div><div>    <span style=3D"color:rgb(128,128,128)">&lt;/</span=
+><span style=3D"color:rgb(86,156,214)">section</span><span style=3D"color:r=
+gb(128,128,128)">&gt;</span></div><div>  <span style=3D"color:rgb(128,128,1=
+28)">&lt;/</span><span style=3D"color:rgb(86,156,214)">main</span><span sty=
+le=3D"color:rgb(128,128,128)">&gt;</span></div><br><div>  <span style=3D"co=
+lor:rgb(106,153,85)">&lt;!-- Sticky Footer --&gt;</span></div><div>  <span =
+style=3D"color:rgb(128,128,128)">&lt;</span><span style=3D"color:rgb(86,156=
+,214)">footer</span><span style=3D"color:rgb(128,128,128)">&gt;</span></div=
+><div>    <span style=3D"color:rgb(86,156,214)">&amp;copy;</span> DHANARAJ<=
+/div><div>  <span style=3D"color:rgb(128,128,128)">&lt;/</span><span style=
+=3D"color:rgb(86,156,214)">footer</span><span style=3D"color:rgb(128,128,12=
+8)">&gt;</span></div><br><div>  <span style=3D"color:rgb(128,128,128)">&lt;=
+</span><span style=3D"color:rgb(86,156,214)">script</span><span style=3D"co=
+lor:rgb(128,128,128)">&gt;</span></div><div><span style=3D"color:rgb(212,21=
+2,212)">    </span><span style=3D"color:rgb(106,153,85)">// Tab switching l=
+ogic</span></div><div><span style=3D"color:rgb(212,212,212)">    </span><sp=
+an style=3D"color:rgb(86,156,214)">function</span><span style=3D"color:rgb(=
+212,212,212)"> </span><span style=3D"color:rgb(220,220,170)">showSection</s=
+pan><span style=3D"color:rgb(212,212,212)">(</span><span style=3D"color:rgb=
+(156,220,254)">sectionId</span><span style=3D"color:rgb(212,212,212)">) {</=
+span></div><div><span style=3D"color:rgb(212,212,212)">      </span><span s=
+tyle=3D"color:rgb(86,156,214)">const</span><span style=3D"color:rgb(212,212=
+,212)"> </span><span style=3D"color:rgb(79,193,255)">sections</span><span s=
+tyle=3D"color:rgb(212,212,212)"> =3D </span><span style=3D"color:rgb(156,22=
+0,254)">document</span><span style=3D"color:rgb(212,212,212)">.</span><span=
+ style=3D"color:rgb(220,220,170)">querySelectorAll</span><span style=3D"col=
+or:rgb(212,212,212)">(</span><span style=3D"color:rgb(206,145,120)">&#39;se=
+ction&#39;</span><span style=3D"color:rgb(212,212,212)">);</span></div><div=
+><span style=3D"color:rgb(212,212,212)">      </span><span style=3D"color:r=
+gb(79,193,255)">sections</span><span style=3D"color:rgb(212,212,212)">.</sp=
+an><span style=3D"color:rgb(220,220,170)">forEach</span><span style=3D"colo=
+r:rgb(212,212,212)">(</span><span style=3D"color:rgb(156,220,254)">section<=
+/span><span style=3D"color:rgb(212,212,212)"> </span><span style=3D"color:r=
+gb(86,156,214)">=3D&gt;</span><span style=3D"color:rgb(212,212,212)"> {</sp=
+an></div><div><span style=3D"color:rgb(212,212,212)">        </span><span s=
+tyle=3D"color:rgb(156,220,254)">section</span><span style=3D"color:rgb(212,=
+212,212)">.</span><span style=3D"color:rgb(156,220,254)">classList</span><s=
+pan style=3D"color:rgb(212,212,212)">.</span><span style=3D"color:rgb(220,2=
+20,170)">remove</span><span style=3D"color:rgb(212,212,212)">(</span><span =
+style=3D"color:rgb(206,145,120)">&#39;active&#39;</span><span style=3D"colo=
+r:rgb(212,212,212)">);</span></div><div><span style=3D"color:rgb(212,212,21=
+2)">      });</span></div><div><span style=3D"color:rgb(212,212,212)">     =
+ </span><span style=3D"color:rgb(156,220,254)">document</span><span style=
+=3D"color:rgb(212,212,212)">.</span><span style=3D"color:rgb(220,220,170)">=
+getElementById</span><span style=3D"color:rgb(212,212,212)">(</span><span s=
+tyle=3D"color:rgb(156,220,254)">sectionId</span><span style=3D"color:rgb(21=
+2,212,212)">).</span><span style=3D"color:rgb(156,220,254)">classList</span=
+><span style=3D"color:rgb(212,212,212)">.</span><span style=3D"color:rgb(22=
+0,220,170)">add</span><span style=3D"color:rgb(212,212,212)">(</span><span =
+style=3D"color:rgb(206,145,120)">&#39;active&#39;</span><span style=3D"colo=
+r:rgb(212,212,212)">);</span></div><div><span style=3D"color:rgb(212,212,21=
+2)">    }</span></div><br><div><span style=3D"color:rgb(212,212,212)">    <=
+/span><span style=3D"color:rgb(106,153,85)">// Simple slideshow logic for a=
+ll slideshows</span></div><div><span style=3D"color:rgb(212,212,212)">    <=
+/span><span style=3D"color:rgb(86,156,214)">const</span><span style=3D"colo=
+r:rgb(212,212,212)"> </span><span style=3D"color:rgb(79,193,255)">slideshow=
+s</span><span style=3D"color:rgb(212,212,212)"> =3D </span><span style=3D"c=
+olor:rgb(156,220,254)">document</span><span style=3D"color:rgb(212,212,212)=
+">.</span><span style=3D"color:rgb(220,220,170)">querySelectorAll</span><sp=
+an style=3D"color:rgb(212,212,212)">(</span><span style=3D"color:rgb(206,14=
+5,120)">&#39;.slideshow-container&#39;</span><span style=3D"color:rgb(212,2=
+12,212)">);</span></div><div><span style=3D"color:rgb(212,212,212)">    </s=
+pan><span style=3D"color:rgb(79,193,255)">slideshows</span><span style=3D"c=
+olor:rgb(212,212,212)">.</span><span style=3D"color:rgb(220,220,170)">forEa=
+ch</span><span style=3D"color:rgb(212,212,212)">((</span><span style=3D"col=
+or:rgb(156,220,254)">slideshow</span><span style=3D"color:rgb(212,212,212)"=
+>) </span><span style=3D"color:rgb(86,156,214)">=3D&gt;</span><span style=
+=3D"color:rgb(212,212,212)"> {</span></div><div><span style=3D"color:rgb(21=
+2,212,212)">      </span><span style=3D"color:rgb(86,156,214)">let</span><s=
+pan style=3D"color:rgb(212,212,212)"> </span><span style=3D"color:rgb(156,2=
+20,254)">slides</span><span style=3D"color:rgb(212,212,212)"> =3D </span><s=
+pan style=3D"color:rgb(156,220,254)">slideshow</span><span style=3D"color:r=
+gb(212,212,212)">.</span><span style=3D"color:rgb(220,220,170)">querySelect=
+orAll</span><span style=3D"color:rgb(212,212,212)">(</span><span style=3D"c=
+olor:rgb(206,145,120)">&#39;.mySlides&#39;</span><span style=3D"color:rgb(2=
+12,212,212)">);</span></div><div><span style=3D"color:rgb(212,212,212)">   =
+   </span><span style=3D"color:rgb(86,156,214)">let</span><span style=3D"co=
+lor:rgb(212,212,212)"> </span><span style=3D"color:rgb(156,220,254)">index<=
+/span><span style=3D"color:rgb(212,212,212)"> =3D </span><span style=3D"col=
+or:rgb(181,206,168)">0</span><span style=3D"color:rgb(212,212,212)">;</span=
+></div><div><span style=3D"color:rgb(212,212,212)">      </span><span style=
+=3D"color:rgb(156,220,254)">slides</span><span style=3D"color:rgb(212,212,2=
+12)">[</span><span style=3D"color:rgb(156,220,254)">index</span><span style=
+=3D"color:rgb(212,212,212)">].</span><span style=3D"color:rgb(156,220,254)"=
+>style</span><span style=3D"color:rgb(212,212,212)">.</span><span style=3D"=
+color:rgb(156,220,254)">display</span><span style=3D"color:rgb(212,212,212)=
+"> =3D </span><span style=3D"color:rgb(206,145,120)">&#39;block&#39;</span>=
+<span style=3D"color:rgb(212,212,212)">;</span></div><div><span style=3D"co=
+lor:rgb(212,212,212)">      </span><span style=3D"color:rgb(220,220,170)">s=
+etInterval</span><span style=3D"color:rgb(212,212,212)">(() </span><span st=
+yle=3D"color:rgb(86,156,214)">=3D&gt;</span><span style=3D"color:rgb(212,21=
+2,212)"> {</span></div><div><span style=3D"color:rgb(212,212,212)">        =
+</span><span style=3D"color:rgb(156,220,254)">slides</span><span style=3D"c=
+olor:rgb(212,212,212)">[</span><span style=3D"color:rgb(156,220,254)">index=
+</span><span style=3D"color:rgb(212,212,212)">].</span><span style=3D"color=
+:rgb(156,220,254)">style</span><span style=3D"color:rgb(212,212,212)">.</sp=
+an><span style=3D"color:rgb(156,220,254)">display</span><span style=3D"colo=
+r:rgb(212,212,212)"> =3D </span><span style=3D"color:rgb(206,145,120)">&#39=
+;none&#39;</span><span style=3D"color:rgb(212,212,212)">;</span></div><div>=
+<span style=3D"color:rgb(212,212,212)">        </span><span style=3D"color:=
+rgb(156,220,254)">index</span><span style=3D"color:rgb(212,212,212)"> =3D (=
+</span><span style=3D"color:rgb(156,220,254)">index</span><span style=3D"co=
+lor:rgb(212,212,212)"> + </span><span style=3D"color:rgb(181,206,168)">1</s=
+pan><span style=3D"color:rgb(212,212,212)">) % </span><span style=3D"color:=
+rgb(156,220,254)">slides</span><span style=3D"color:rgb(212,212,212)">.</sp=
+an><span style=3D"color:rgb(156,220,254)">length</span><span style=3D"color=
+:rgb(212,212,212)">;</span></div><div><span style=3D"color:rgb(212,212,212)=
+">        </span><span style=3D"color:rgb(156,220,254)">slides</span><span =
+style=3D"color:rgb(212,212,212)">[</span><span style=3D"color:rgb(156,220,2=
+54)">index</span><span style=3D"color:rgb(212,212,212)">].</span><span styl=
+e=3D"color:rgb(156,220,254)">style</span><span style=3D"color:rgb(212,212,2=
+12)">.</span><span style=3D"color:rgb(156,220,254)">display</span><span sty=
+le=3D"color:rgb(212,212,212)"> =3D </span><span style=3D"color:rgb(206,145,=
+120)">&#39;block&#39;</span><span style=3D"color:rgb(212,212,212)">;</span>=
+</div><div><span style=3D"color:rgb(212,212,212)">      }, </span><span sty=
+le=3D"color:rgb(181,206,168)">3000</span><span style=3D"color:rgb(212,212,2=
+12)">);</span></div><div><span style=3D"color:rgb(212,212,212)">    });</sp=
+an></div><div><span style=3D"color:rgb(212,212,212)">  </span><span style=
+=3D"color:rgb(128,128,128)">&lt;/</span><span style=3D"color:rgb(86,156,214=
+)">script</span><span style=3D"color:rgb(128,128,128)">&gt;</span></div><br=
+><div><span style=3D"color:rgb(128,128,128)">&lt;/</span><span style=3D"col=
+or:rgb(86,156,214)">body</span><span style=3D"color:rgb(128,128,128)">&gt;<=
+/span></div><div><span style=3D"color:rgb(128,128,128)">&lt;/</span><span s=
+tyle=3D"color:rgb(86,156,214)">html</span><span style=3D"color:rgb(128,128,=
+128)">&gt;</span></div></div></div>
+
+--00000000000083d6a2063996bd1e--
